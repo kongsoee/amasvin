@@ -1,0 +1,74 @@
+@import url(common.css);
+@font-face {
+    font-family: 'DOSSaemmul';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSSaemmul.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#main{
+    padding-top:70px;
+    width: 80%;
+    text-align: center;
+}
+
+#mmain{
+    margin:100px 0;
+}
+
+h2{
+    font-family: 'DOSSaemmul';
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 20px 20px 10px 0;
+    transition: all 0.2s ;
+}
+
+#main button{
+    background:#d6e6ed;
+    border:0;
+}
+.push{box-shadow: 0px 5px 0px 0px #a4c3c9;}
+.push:hover{
+        margin-top: 30px;
+        margin-bottom: 5px;
+    box-shadow: 0px 0px 0px 0px #a4c3c9;
+}
+
+.qBox{
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.answerList{
+    display: block;
+    width: 80%;
+    border:1px solid #cd7d56;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+.answerList:hover{
+    background-color: #cd7d56;
+    color:white;
+}
+
+.status{
+    height:20px;
+    width: 80%;
+    background-color: #928b83;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height:100%;
+    background-color: #f8f2e3;
+    border-radius: 20px;
+    transition: all 0.7s;
+}

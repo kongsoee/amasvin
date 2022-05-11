@@ -1,0 +1,25 @@
+#result{
+    display: none;
+    width: 80%;
+    text-align: center;
+
+}
+.resultname{
+    font-size:26px;
+}
+.resultDesc{
+    font-size: 24px;
+}
+
+
+.kakao{
+    border:1px solid #95b1d6;
+    background-color: white;
+    font-size:18px;
+    transition: all 0.5s;
+}
+
+.kakao:hover, .kakao:focus{
+    background-color: #95b1d6;
+
+}

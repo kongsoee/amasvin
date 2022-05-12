@@ -6,9 +6,7 @@ const setShare =()=>{
     const shareDes = infoList[resultAlt].name;
     const shareImage = `${url}image/img-${resultAlt}.png`;
     const shareURL = `${url}page/result-${resultAlt}.html`;
-    kakaoShare
-}
-const kakaoShare =()=> {
+
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {

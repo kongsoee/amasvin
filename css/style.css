@@ -72,3 +72,14 @@ h2{
     border-radius: 20px;
     transition: all 0.7s;
 }
+
+.gohome{
+    border:1px solid #95b1d6;
+    background-color: white;
+    font-size:18px;
+    transition: all 0.5s;
+}
+
+.gohome:hover, .gohome:focus{
+    background-color: #95b1d6;
+}
